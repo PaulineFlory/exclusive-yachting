@@ -1,0 +1,115 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(images/navigation.jpg);
+    background-size: cover;    
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 2px solid #fff; 
+}
+
+nav h1{
+    color:  #fff;
+    font-family: 'Cinzel', empattements ;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: inline;
+    margin-top: 3px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;   
+}
+
+header{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 40px;   
+}
+ 
+
+header h1{
+    font-family: 'Cinzel', empattements ;
+    font-size: 50px;
+    text-align: center;
+}
+
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+header button{
+    padding: 10px 20px;
+    background-color:rgba(0,0,0,0.3);
+    border:1px solid #6f6f6f;
+    border-radius: 7px;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Cinzel', empattements ;
+    cursor: pointer;
+}
+
+
+footer{
+    margin-top: 0px;
+    background-color: #021c44;
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Cinzel', empattements ;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .Contacts{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .Contacts .Contacts {
+    margin-right: 30px;
+    display: block;
+}
+footer .Contacts .Contacts  p{
+    max-width: 300px;
+
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
+
+@media (min-width: 500px) {
+  nav .onglets{
+    margin-left:300px
+  }
+
+  }
+@media (max-width: 540px) {
+  nav .onglets{
+    margin-left:0px;
+  }
+}

@@ -1,0 +1,145 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(images/navigation.jpg);
+    background-size: cover;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 2px solid #fff;
+    
+}
+
+nav h1{
+    color: #fff;
+    font-family: 'Cinzel', empattements ;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    background-size: cover;
+}
+.main .right{
+   flex: 0 0 20%;
+   color:#fff;
+   border-radius: 20px;
+   background-color:rgba(250,250,250,0.0);
+   margin-bottom: 30px;
+   margin-top: 30px;
+   
+}
+
+
+.formu{   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Cinzel', empattements ;
+}
+
+.formul{
+    margin-bottom: 5px;
+    height: 35px;
+    border-radius: 3px;
+    width: 250px;
+    background-color:rgba(250,250,250,0.5);
+    font-family: 'Cinzel', empattements ;
+    border-style: none;
+}
+.formub{
+    font-family: 'Cinzel', empattements ;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgba(250,250,250,0.5)
+    border-style:none;
+}
+.select{
+    height: 30px;
+    border-radius: 7px;
+    background-color: rgba(250,250,250,0.5)
+    border-style:none;  
+    margin-top: 35px;
+    }
+.texta{
+    border-radius: 5px;
+    background-color:rgba(250,250,250,0.5);
+    border-style: none;   
+    width: 250px;
+    margin-bottom: px;
+   
+}
+
+footer{
+    background-color: #021c44;
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Cinzel', empattements ;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .Contacts{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .Contacts .Contacts {
+    margin-right: 30px;
+    display: block;
+}
+footer .Contacts .Contacts  p{
+    max-width: 300px;
+
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
+
+@media (min-width: 500px) {
+  nav .onglets{
+    margin-left:300px
+  }
+
+  div .rightt{
+       margin-left: 100px;
+}
+  
+}
+
+  }
+@media (max-width: 540px) {
+  nav .onglets{
+    margin-left:0px;
+  } 
+  div .rightt{
+       margin-left: 0px;
+}
+
+
+}
